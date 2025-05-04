@@ -28665,16 +28665,19 @@ const Home = ({ name , title  })=>{
                 style: {
                     position: "absolute",
                     top: "5rem",
-                    left: "2rem",
+                    right: "2rem",
                     width: "17rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        style: {
+                            whiteSpace: "nowrap"
+                        },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 32,
-                        columnNumber: 9
+                        columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
