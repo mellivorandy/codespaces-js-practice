@@ -35,9 +35,10 @@ const Home = ({ name, title }) => {
           right: "2rem",
           textAlign: "right",
           width: "22rem",
+          color: "white",
         }}
       >
-      <h1 style={{ whiteSpace: "nowrap" }}>{name}</h1>
+        <h1 style={{ whiteSpace: "nowrap", color: "white" }}>{name}</h1>
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
