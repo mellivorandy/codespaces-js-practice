@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -123,4 +127,13 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
